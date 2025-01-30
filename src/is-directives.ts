@@ -16,7 +16,6 @@ import isTextDirective from './is-text-directive.js';
  * isDirectives(node); //=> true, node is Directives
  * ```
  */
-
 export default ((value) =>
 	isContainerDirective(value) ||
 	isLeafDirective(value) ||
